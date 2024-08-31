@@ -1,8 +1,8 @@
-## README for Enhanced Device List and App Deployment Script
+## README for android-deploy
 
 ### Introduction
 
-This Bash script automates the process of listing attached Android devices, filtering them based on Android version, and deploying an APK file to each selected device. It incorporates various improvements over the previous version, offering enhanced functionality and user experience.
+This Bash script (device_list_and_app_deployment.sh) automates the process of listing attached Android devices, filtering them based on Android version, and deploying an APK file to each selected device. 
 
 ### Prerequisites
 
