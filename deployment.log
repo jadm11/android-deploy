@@ -1,0 +1,32 @@
+[1;redm[2024-08-31 11:10:44] error: adb command not found. Please ensure Android SDK is installed and added to PATH.[0m
+[1;redm[2024-08-31 11:10:53] error: adb command not found. Please ensure Android SDK is installed and added to PATH.[0m
+[1;redm[2024-08-31 11:33:08] error: adb command not found. Please ensure Android SDK is installed and added to PATH.[0m
+[1;redm[2024-08-31 11:36:20] error: adb command not found. Please ensure Android SDK is installed and added to PATH.[0m
+[1;redm[2024-08-31 11:36:24] error: adb command not found. Please ensure Android SDK is installed and added to PATH.[0m
+[1;redm[2024-09-01 07:00:03] error: adb command not found. Please ensure Android SDK is installed and added to PATH.[0m
+[1;redm[2024-09-01 07:00:06] error: adb command not found. Please ensure Android SDK is installed and added to PATH.[0m
+[1;31m[2024-09-01 08:50:39] error: APK file not found: your_app.apk[0m
+[1;32m[2024-09-01 08:52:01] info: Listing attached devices...[0m
+FA35DS911282
+[1;32m[2024-09-01 09:03:51] info: Listing attached devices...[0m
+FA35DS911282
+[1;32m[2024-09-01 09:03:54] info: This script will deploy your app to the following devices:[0m
+[1;32m[2024-09-01 09:03:54] info:   - FA35DS911282[0m
+Are you sure you want to proceed? (y/n): [1;32m[2024-09-01 09:04:01] info: Deploying APK to 1 devices...[0m
+[1;34m[2024-09-01 09:04:01] debug: Installing on device: FA35DS911282[0m
+adb: error: cannot stat 'your_app.apk': No such file or directory
+[1;31m[2024-09-01 09:04:01] error: Failed to deploy APK to device: FA35DS911282[0m
+[1;31m[2024-09-01 09:07:50] error: No APK files provided. Please specify at least one APK file for deployment.[0m
+Usage: ./device_list_and_app_deployment.sh [-h] [-v] [-c] [-l logfile] [-f filter] [-d] [APK_FILE...]
+  -h: Display this help message
+  -v: Enable verbose mode
+  -c: Continue on failure (don't exit if installation fails on a device)
+  -l logfile: Specify a custom log file (default: deployment.log)
+  -f filter: Filter devices based on Android version (e.g., '9', '10+')
+  -d: List all attached devices and exit
+  APK_FILE...: Path(s) to one or more APK files to install.
+
+Environment variables:
+  CONFIG_FILE: Path to a configuration file with default settings
+[1;32m[2024-09-01 09:07:57] info: Listing attached devices...[0m
+FA35DS911282
